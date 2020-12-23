@@ -13,7 +13,7 @@ limitations under the License.
 
 /*
 This module implements a clock divider.
-It has a asynchronous low -active reset and a paramter COUNTER_SIZE to specify the amount of clock division.
+It has a asynchronous active low reset and a paramter COUNTER_SIZE to specify the amount of clock division.
 */
 module clock_divider (
 	input		clk_in,		// Clock input will get divided
