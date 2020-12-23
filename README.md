@@ -2,6 +2,10 @@
 This repository contains a clock divider with active low, asynchronous reset and a paramter COUNTER_SIZE to specify the amount of division.
 The repository is part of my autodidactic learning of Verilog and git.
 
+The test bench `clock_divider_tb.v` lets you investigate the clock signals from different clock dividers U0-U4. They each use different values for COUNTER_SIZE.
+
+![Wave View](/clock_divider_tb_waves.JPG?raw=true "ModelSim wave view of the divided clock signals coming from U0-U4.")
+
 ### IDE & Board
 - HDL: Verilog
 - IDE: Quartus Prime Lite 18.1.0
