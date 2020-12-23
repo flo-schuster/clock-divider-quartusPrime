@@ -16,3 +16,6 @@
 !*.vhdl
 # tcl setup script
 !setup_*.tcl
+# image files for ducomentation
+!*.jpg
+!*.png
